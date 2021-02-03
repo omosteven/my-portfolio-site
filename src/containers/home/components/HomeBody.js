@@ -296,7 +296,7 @@ const HomeBody = () => {
                         </div>
                     </div>
                 </section>
-                <section className="carousel__layer">
+                <section className="carousel__layer" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     <h4 className="carousel__headline">My Past Works.</h4>
                     <Carousel className="carousel__container">
                         <div className="carousel__slide">

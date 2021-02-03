@@ -137,7 +137,7 @@ const HomeHeader = () => {
                                 }>About Me</h6>
                                 <h6 className="header__item__mobile"
                                     onClick={
-                                        () => scrollToDown(1750)
+                                        () => scrollToDown(1900)
                                 }>
                                     My Works
                                 </h6>
@@ -151,17 +151,17 @@ const HomeHeader = () => {
                             } */}
                                 <h6 className="header__item__mobile"
                                     onClick={
-                                        () => scrollToDown(3300)
+                                        () => scrollToDown(3500)
                                 }>
                                     Experiences
                                 </h6>
                                 <h6 className="header__item__mobile"
                                     onClick={
-                                        () => scrollToDown(6300)
+                                        () => scrollToDown(6500)
                                 }>My Past Works</h6>
                                 <h6 className="header__item__mobile"
                                     onClick={
-                                        () => scrollToDown(6850)
+                                        () => scrollToDown(7050)
                                 }>Reach Me</h6>
                             </div>
                         )
