@@ -92,11 +92,19 @@ const HomeHeader = () => {
                             }>
                                 Experiences
                             </Link>
+                            <Link to="/"
+                                className={hd}
+                                id="hd3"
+                                onClick={
+                                    () => scrollToDown(3150)
+                            }>
+                                My Past Works
+                            </Link>
                         </div>
                         <div className="shift__header__item__right">
                             <Link to="/" className="hd headBtn" id="hd4"
                                 onClick={
-                                    () => scrollToDown(3400)
+                                    () => scrollToDown(3700)
                             }>
                                 Contact Me
                             </Link>
@@ -149,7 +157,11 @@ const HomeHeader = () => {
                                 </h6>
                                 <h6 className="header__item__mobile"
                                     onClick={
-                                        () => scrollToDown(6250)
+                                        () => scrollToDown(6300)
+                                }>My Past Works</h6>
+                                <h6 className="header__item__mobile"
+                                    onClick={
+                                        () => scrollToDown(6850)
                                 }>Reach Me</h6>
                             </div>
                         )

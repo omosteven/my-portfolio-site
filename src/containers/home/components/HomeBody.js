@@ -186,6 +186,7 @@ const HomeBody = () => {
                 <section className="skill__layer" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     <div className="layer__container">
                         <div className="left__skill__layer">
+                            <div className="dot">.</div>
                             <h2 className="skill__layer__headline">Experiences & Honors</h2>
                             <div className="skill__container">
                                 <h6 className="skill__year">

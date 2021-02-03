@@ -19,15 +19,6 @@ const HomeFooter = () => {
                             <i className="fa fa-medium fa-stack-1x"></i>
                         </span>
                     </a>
-                    {/* <a
-            href="https://facebook.com/steven.7/"
-            className="facebook social--icon"
-          >
-            <span className="fa-stack fa-lg"> */}
-                    {/* <i className="fa fa-circle-thin fa-stack-2x"></i> */}
-                    {/* <i className="fa fa-facebook fa-stack-1x"></i>
-            </span>
-          </a> */}
 
                     <a href="https://twitter.com/omolesteven/" className="twitter social--icon">
                         <span className="fa-stack fa-lg">
@@ -57,7 +48,7 @@ const HomeFooter = () => {
                 </div>
                 <div className="copy__right__cont">
                     <p className="copy__footer">
-                        © 2020 My Website. All rights reserved | Designed by me
+                        © 2021 My Website. All rights reserved | Designed by me
                     </p>
                 </div>
             </footer>

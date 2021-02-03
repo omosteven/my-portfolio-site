@@ -162,11 +162,12 @@ body {
 .second__layer__desc1 {
     /* font-weight: bold; */
     color: rgba(5, 5, 5, 1);
+    line-height: 1.5em;
 }
 
 .second__layer__desc2 {
     color: rgba(5, 5, 5, 0.7);
-    line-height: 1.5em;
+    line-height: 2em;
     /* justify-content: space-between; */
     /* font-size: 1em; */
     text-align: justify;
@@ -416,6 +417,10 @@ body {
     font-weight: bold;
 }
 
+.dot {
+    display: none;
+}
+
 .skill__year {
     color: rgba(255, 255, 255, 0.7);
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -460,6 +465,12 @@ body {
         width: 100%;
         text-align: left;
         line-height: 2em;
+    }
+    .skill__layer__headline {
+        margin-top: 1em;
+    }
+    .dot {
+        display: block;
     }
 }
 
