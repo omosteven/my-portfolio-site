@@ -18,14 +18,18 @@ import mypic from "../../../images/Steve/steve3.jpg";
 
 import fullStack from "../../../images/g2.jpg";
 
-import writing from "../../../images/g2.jpg";
+import writing from "../../../images/public-speaking.jpeg";
 
-import coaching from "../../../images/g2.jpg";
+import coaching from "../../../images/Mentorship.jpg";
 
 // import the portfolio images.
 import portA1 from "../../../images/portfolio/Screenshot from 2021-02-03 01-37-05.png";
 
 import portA2 from "../../../images/portfolio/Screenshot from 2021-02-03 01-37-17.png";
+
+import portA11 from "../../../images/portfolio/Screenshot from 2021-02-11 10-26-05.png";
+
+import portA22 from "../../../images/portfolio/Screenshot from 2021-02-11 10-26-23.png";
 
 import portB1 from "../../../images/portfolio/Screenshot from 2021-02-03 01-38-26.png";
 
@@ -67,7 +71,7 @@ const HomeBody = () => {
                     </h2>
                     <h2 className="first__layer__top">Hello, I'm Steven Omole-Adebomi</h2>
                     <h5 className="first__layer__bottom">
-                        Full Stack Web Developer / Software Engineer
+                        Full Stack / Software Engineer
                     </h5>
                 </section>
 
@@ -83,13 +87,13 @@ const HomeBody = () => {
                         <div className="second__layer__right">
                             <h3 className="second__layer__title">Who Am I?</h3>
                             <h5 className="second__layer__desc1">
-                                Nice to meet you, I am Steven Omole-Adebomi, a Full Stack Web Developer / Software Engineer
+                                Nice to meet you, I am Steven Omole-Adebomi, a Full Stack / Software Engineer
                             </h5>
 
                             <h6 className="second__layer__desc2">
                                 As a
                                 <b> {" "}
-                                    Frontend / Full Stack Web developer {" "} </b>
+                                    Full Stack Engineer {" "} </b>
                                 who has acquired proficient development in new areas and technologies since the past 3 years, I have learnt both from self taught and team work experiences to deliver excellent communication skills including ability to distill technical details into human terms, learn quickly new technologies and work in highly collaborative and open communicative environments.         proper software engineering techniques and practices.
                             </h6>
 
@@ -216,7 +220,7 @@ const HomeBody = () => {
                                 </h5>
                                 <p className="skill__content">
                                     <li className="skill__content__bullet">
-                                        Received a letter of recommendation from my college.
+                                        Received a letter of recommendation from my university.
                                     </li>
                                     <li className="skill__content__bullet">
                                         Received a letter of excellence to mark my impacts.
@@ -264,7 +268,7 @@ const HomeBody = () => {
                                     Bachelor of Technology, Federal University of Technology Akure.
                                 </h5>
                                 <p className="skill__content">
-                                    Currently a second class upper fourth year college student who is into the field of Cyber security and computer science but loves to practice software engineering.
+                                    Currently a second class upper fourth year university student who is into the field of Cyber security and computer science but loves to practice software engineering.
                                 </p>
                             </div>
                             <div className="skill__container">
@@ -278,6 +282,23 @@ const HomeBody = () => {
                                     </li>
                                     <li className="skill__content__bullet">
                                         Competed for the post a day before the election and still had a vote count twice as more than my competitior.
+                                    </li>
+                                </p>
+                            </div>
+                            <div className="skill__container">
+                                <h6 className="skill__year">
+                                    <p className="year">2018 - 2019</p>
+                                </h6>
+                                <h5 className="skill__title">Student Coordinator, Cryptographic Development Initiative of Nigeria.</h5>
+                                <p className="skill__content">
+                                    <li className="skill__content__bullet">
+                                        Served as a student coordinator for the Cryptographic Development Initiative of Nigeria in my campus.
+                                    </li>
+                                    <li className="skill__content__bullet">
+                                        Organized a Campus Blockchain Hackathon where over 750 attendees were present in my campus along side a team.
+                                    </li>
+                                    <li className="skill__content__bullet">
+                                        Led the winning team to represent my university at the National Blockchain Hackathon and came first out of five other universities.
                                     </li>
                                 </p>
                             </div>
@@ -298,7 +319,9 @@ const HomeBody = () => {
                 </section>
                 <section className="carousel__layer" data-aos="fade-up" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     <h4 className="carousel__headline">My Past Works.</h4>
-                    <Carousel className="carousel__container">
+                    <Carousel className="carousel__container"
+                        infiniteLoop={true}
+                        autoPlay={true}>
                         <div className="carousel__slide">
                             <img src={portA1}
                                 className="carousel__image"
@@ -312,6 +335,18 @@ const HomeBody = () => {
                             </a>
                         </div>
                         <div className="carousel__slide">
+                            <img src={portA11}
+                                className="carousel__image"
+                                alt="Past works"/>
+
+                            <img src={portA22}
+                                className="carousel__image"
+                                alt="Past works"/>
+                            <a href="https://mentupapp.com" target="__blank">
+                                <p className="legend course__title">MentUp - Full Stack Engineer (ReactJs & NodeJs for the Mobile App). Click me to view.</p>
+                            </a>
+                        </div>
+                        <div className="carousel__slide">
                             <img src={portB1}
                                 className="carousel__image"
                                 alt="Past works"/>
@@ -320,7 +355,7 @@ const HomeBody = () => {
                                 className="carousel__image"
                                 alt="Past works"/>
                             <a href="https://martln.netlify.com" target="__blank">
-                                <p className="legend course__title">MartLn - Full Stack Developer (ReactJs & NodeJs). Click me to view.</p>
+                                <p className="legend course__title">MartLn - Full Stack Engineer (ReactJs & NodeJs). Click me to view.</p>
                             </a>
                         </div>
                         <div className="carousel__slide">
@@ -332,7 +367,7 @@ const HomeBody = () => {
                                 className="carousel__image"
                                 alt="Past works"/>
                             <a href="https://ifamlm.netlify.com" target="__blank">
-                                <p className="legend course__title">IFA - Full Stack Developer (ReactJs & NodeJs). Click me to view.</p>
+                                <p className="legend course__title">IFA - Full Stack Engineer (ReactJs & NodeJs). Click me to view.</p>
                             </a>
                         </div>
                         <div className="carousel__slide">
@@ -344,7 +379,7 @@ const HomeBody = () => {
                                 className="carousel__image"
                                 alt="Past works"/>
                             <a href="https://dashingsplash.com" target="__blank">
-                                <p className="legend course__title">DashingSplash - Full Stack Developer (Boostrap & PHP 7). Click me to view.</p>
+                                <p className="legend course__title">DashingSplash - Full Stack Engineer (Boostrap & PHP 7). Click me to view.</p>
                             </a>
                         </div>
                         <div className="carousel__slide">
